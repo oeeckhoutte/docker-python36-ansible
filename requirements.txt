@@ -1,0 +1,4 @@
+cryptography==2.7
+Click==7.0
+ansible==2.8.4
+PyInstaller==3.5
