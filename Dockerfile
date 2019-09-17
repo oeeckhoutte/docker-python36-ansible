@@ -2,6 +2,7 @@ FROM python:3.6
 
 RUN apt-get update
 RUN apt-get install -y jq
+RUN pip install yq
 WORKDIR /tmp
 COPY requirements.txt ./
 COPY fernet-decrypt.py ./
